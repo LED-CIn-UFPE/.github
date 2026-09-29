@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img width="400" height="400" alt="Logo LED preta" src="https://github.com/user-attachments/assets/04186be5-f672-44b7-8493-99424e0102ad" />
-
   # Liga Acadêmica de Engenharia de Dados (LED)
   ### Centro de Informática - UFPE
 
