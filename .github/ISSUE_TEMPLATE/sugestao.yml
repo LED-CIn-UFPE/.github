@@ -1,0 +1,27 @@
+name: Sugestão de conteúdo
+description: Proponha um tema para encontro, workshop, pesquisa ou material.
+title: "[Sugestão] "
+labels: ["sugestão"]
+body:
+  - type: input
+    id: tema
+    attributes:
+      label: Tema
+      placeholder: "Ex.: Streaming de dados com Kafka"
+    validations:
+      required: true
+  - type: dropdown
+    id: eixo
+    attributes:
+      label: Eixo
+      options:
+        - Ensino
+        - Pesquisa
+        - Extensão
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por que esse tema?
+      description: O que a liga ganha com ele, referências e possíveis expositores.

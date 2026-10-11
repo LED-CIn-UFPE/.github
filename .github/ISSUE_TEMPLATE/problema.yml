@@ -1,0 +1,32 @@
+name: Problema em material ou código
+description: Algo não funciona como o README ou a aula descreve.
+title: "[Problema] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como reproduzir
+      description: Comandos executados, na ordem.
+      placeholder: |
+        1. docker compose up
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Mensagem de erro ou log
+      render: shell
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      placeholder: "Ubuntu 24.04, Docker 27, Python 3.12"
